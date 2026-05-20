@@ -1,5 +1,4 @@
-# SOD1 ddPCA
-A multidimensional DMS of the ALS protein SOD1
+#  A multidimensional deep mutational scanning of the ALS protein SOD1: dissecting the effect of mutations on protein abundance and dimer formation 
 Pipeline to replicate the analysis and figures in: A multidimensional deep mutational scanning of the ALS protein SOD1: dissecting the effect of mutations on protein abundance and dimer formation (Tomás Quiroga, Laz Ashcroft, Lauren Rice, Defne Boratav, Mariano Martín, Juan Francisco Vázquez Costa, Bryony A Thomspon, Luke McAlary, Benedetta Bolognesi)
 
 # Requirements
