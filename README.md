@@ -4,6 +4,7 @@ Pipeline to replicate the analysis and figures in: A multidimensional deep mutat
 # Requirements
 Software and packages to run the pipeline :
 R v3.6.3 (tidyverse, ggplot2, dplyr, reshape2, stringr, readxl, ggpubr, ggrepel, data.table, RColorBrewer, grid, DescTools, GrowthCurver, lsr, esc, ggsignif, pROC)
+
 DiMSum (https://github.com/lehner-lab/DiMSum; Faure, A.J., Schmiedel, J.M., Baeza-Centurion, P., Lehner B. DiMSum: an error model and pipeline for analyzing deep mutational scanning data and diagnosing common experimental pathologies. Genome Biol 21, 207 (2020))
 
 # Installation
