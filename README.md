@@ -12,3 +12,5 @@ No installation required
 
 # Scripts workflow
 AbundancePCA and BindingPCA scripts must be run first to generate the datasets that will used in the scripts that integrate the two assays
+
+# Check git pull
