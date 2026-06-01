@@ -10,3 +10,5 @@ DiMSum (https://github.com/lehner-lab/DiMSum; Faure, A.J., Schmiedel, J.M., Baez
 # Installation
 No installation required
 
+# Scripts workflow
+AbundancePCA and BindingPCA scripts must be run first to generate the datasets that will used in the scripts that integrate the two assays
