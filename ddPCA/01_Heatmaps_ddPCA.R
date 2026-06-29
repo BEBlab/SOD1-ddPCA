@@ -5,10 +5,6 @@ library(ggpubr)
 library(dplyr)
 library(patchwork)
 
-#define path
-path_fig2 <- "C:/Users/tquiroga/OneDrive - IBEC/Projects/From owncloud/SOD1 binding PCA/SOD1 manuscript/Plots/Figure 2"
-#path_fig2 <- "C:/Users/USUARIO/OneDrive/OneDrive - IBEC/Projects/From owncloud/SOD1 binding PCA/SOD1 manuscript/Plots/Figure 2"
-
 
 #load aPCA and bPCA data
 SOD_final <- read.csv("SOD1_abundance_binding_scores.csv")
@@ -179,7 +175,7 @@ p_heatmap_side_chain <- ggarrange(p_side_chain + theme(axis.title = element_blan
                                    heights = c(0.05, 1, 0.2), nrow = 3, align = "v")
 p_heatmap_side_chain
 
-ggsave(p_heatmap_side_chain, path = path_fig2, file="SOD1_aPCA_full_heatmap_violin_subs.tiff",width=30, height=10, dpi = 600)
+ggsave(p_heatmap_side_chain, file="SOD1_aPCA_full_heatmap_violin_subs.tiff",width=30, height=10, dpi = 600)
 
 ## Single insertions ####
 #filter to work with insertions
@@ -289,7 +285,7 @@ p_heatmap_ins_side_chain <- ggarrange(p_side_chain + theme(axis.title = element_
                                       heights = c(0.05, 1, 0.2), nrow = 3, align = "v")
 
 p_heatmap_ins_side_chain
-ggsave(p_heatmap_ins_side_chain,, path = path_fig2, file="SOD1_aPCA_full_heatmap_violin_ins.tiff",width=30, height=10, dpi = 600)
+ggsave(p_heatmap_ins_side_chain, file="SOD1_aPCA_full_heatmap_violin_ins.tiff",width=30, height=10, dpi = 600)
 
 
 ## Single deletions ####
@@ -373,7 +369,7 @@ p_del_apca <- ggarrange(p_side_chain + theme(axis.title = element_blank(), axis.
                         heights = c(0.1, 1), nrow = 2, align = "v")
 
 p_del_apca
-ggsave(p_del_apca , path = path_fig2, file="SOD1_aPCA_full_map_deletions.tiff",width=30, height=5, dpi = 600)
+ggsave(p_del_apca , file="SOD1_aPCA_full_map_deletions.tiff",width=30, height=5, dpi = 600)
 
 
 #Heterodimerization heatmaps ####
@@ -490,7 +486,7 @@ p_heatmap_side_chain <- ggarrange(p_side_chain_b + theme(axis.title = element_bl
                                   heights = c(0.05, 1, 0.2), nrow = 3, align = "v")
 p_heatmap_side_chain
 
-ggsave(p_heatmap_side_chain, path = path_fig2, file="SOD1_bPCA_full_heatmap_violin_subs.tiff",width=30, height=10, dpi = 600)
+ggsave(p_heatmap_side_chain, file="SOD1_bPCA_full_heatmap_violin_subs.tiff",width=30, height=10, dpi = 600)
 
 ## Single insertions ####
 peptide_seq_pos<-c()
@@ -575,7 +571,7 @@ p_heatmap_ins_side_chain <- ggarrange(p_side_chain_b + theme(axis.title = elemen
                                       heights = c(0.05, 1, 0.2), nrow = 3, align = "v")
 
 p_heatmap_ins_side_chain
-ggsave(p_heatmap_ins_side_chain,, path = path_fig2, file="SOD1_bPCA_full_heatmap_violin_ins.tiff",width=30, height=10, dpi = 600)
+ggsave(p_heatmap_ins_side_chain, file="SOD1_bPCA_full_heatmap_violin_ins.tiff",width=30, height=10, dpi = 600)
     
 
 ## Single deletions ####
@@ -634,4 +630,4 @@ p_del_bpca <- ggarrange(p_side_chain_b + theme(axis.title = element_blank(), axi
                         heights = c(0.1, 1), nrow = 2, align = "v")
 
 p_del_bpca
-ggsave(p_del_bpca , path = path_fig2, file="SOD1_bPCA_full_map_deletions.tiff",width=30, height=5, dpi = 600)
+ggsave(p_del_bpca , file="SOD1_bPCA_full_map_deletions.tiff",width=30, height=5, dpi = 600)
