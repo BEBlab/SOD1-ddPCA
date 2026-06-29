@@ -1,7 +1,5 @@
 library(openxlsx)
 
-path_suppl <- "C:/Users/tquiroga/OneDrive - IBEC/Projects/From owncloud/SOD1 binding PCA/SOD1 manuscript/Supplementary datasets"
-
 #load data from the 3 bPCA SOD1 libraries
 l1_apca <- read.csv("aPCA_L1_table.csv")
 l2_apca <- read.csv("aPCA_L2_table.csv")
