@@ -1,5 +1,5 @@
-#  A multidimensional deep mutational scanning of the ALS protein SOD1: dissecting the effect of mutations on protein abundance and dimer formation 
-Pipeline to replicate the analysis and figures in: A multidimensional deep mutational scanning of the ALS protein SOD1: dissecting the effect of mutations on protein abundance and dimer formation (Tomás Quiroga, Laz Ashcroft, Lauren Rice, Defne Boratav, Mariano Martín, Juan Francisco Vázquez Costa, Bryony A Thomspon, Luke McAlary, Benedetta Bolognesi)
+#  The folding, dimerization and allosteric landscapes of the ALS protein SOD1: a comprehensive mutational atlas 
+Pipeline to replicate the analysis and figures in: The folding, dimerization and allosteric landscapes of the ALS protein SOD1: a comprehensive mutational atlas (Tomás Quiroga, Laz Ashcroft, Lauren Rice, Defne Boratav, Mariano Martín, Juan Francisco Vázquez-Costa, Bryony A Thomspon, Luke McAlary, Benedetta Bolognesi)
 
 # Requirements
 Software and packages to run the pipeline :
@@ -12,5 +12,3 @@ No installation required
 
 # Scripts workflow
 AbundancePCA and BindingPCA scripts must be run first to generate the datasets that will used in the scripts that integrate the two assays
-
-# Check git pull
