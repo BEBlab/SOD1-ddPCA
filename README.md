@@ -3,7 +3,7 @@ Pipeline to replicate the analysis and figures in: The folding, dimerization and
 
 # Requirements
 Software and packages to run the pipeline :
-R v3.6.3 (tidyverse, ggplot2, dplyr, reshape2, stringr, readxl, ggpubr, ggrepel, data.table, RColorBrewer, grid, DescTools, GrowthCurver, lsr, esc, ggsignif, pROC).
+R v3.6.3 (tidyverse, ggplot2, dplyr, reshape2, stringr, readxl, ggpubr, ggrepel, data.table, ggsignif, pROC, ggbeeswarm, ggalluvial, ggnewscale, minpack.lm, ggtext, bio3d, ggforce, patchwork,).
 
 DiMSum (https://github.com/lehner-lab/DiMSum; Faure, A.J., Schmiedel, J.M., Baeza-Centurion, P., Lehner B. DiMSum: an error model and pipeline for analyzing deep mutational scanning data and diagnosing common experimental pathologies. Genome Biol 21, 207 (2020)).
 
